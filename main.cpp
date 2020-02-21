@@ -40,6 +40,8 @@ int main(){
 
     string line;
     int charCount = 0;
+    int lineCount = 0;
+    float mean = 0;
 
     //Testing that I can read in the correct file and print line by line
     while(!inFile.eof()){
@@ -53,10 +55,19 @@ int main(){
      line.erase(line.find_last_not_of(" \t\n\r\f\v") + 1); //Removes trailing whitespace to get corret character count
      charCount = charCount + line.size();
 
+     cout << line << endl;
+
+     lineCount += 1;
+
+     mean = (float)charCount / (float)lineCount;
+
 
     }
 
-  cout << "There are a total of " << charCount << " characters in this file." << endl;
+  //All of this will later be outputted to the output file
+  cout << "Total number of characters in the file: " << charCount << endl;
+  cout << "Total number of DNA strings in the file: " << lineCount << endl;
+  cout << "The mean length of the DNA strings is: " << mean << endl;
 
 
 }
