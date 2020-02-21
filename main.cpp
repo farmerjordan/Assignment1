@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 #include <cctype> //to use tolower functionality
+#include <cmath> //to calculate standard deviation
 
 
 using namespace std;
@@ -71,6 +72,7 @@ int main(){
     int lengthString = 0;
     float varianceNumerator = 0;
     float variance = 0;
+    float stdev = 0;
 
     inFile.clear();
     inFile.seekg(0, ios::beg);
@@ -87,6 +89,7 @@ int main(){
     }
 
     variance = (float)varianceNumerator / (float)lineCount;
+    stdev = sqrt(variance);
 
 
 
@@ -95,6 +98,7 @@ int main(){
   cout << "Total number of DNA strings in the file: " << lineCount << endl;
   cout << "The mean length of the DNA strings is: " << mean << endl;
   cout << "The variance of the length of the DNA strings is: " << variance << endl;
+  cout << "The standard deviation of the length of the DNA strings is: " << stdev << endl;
 
 
 }
