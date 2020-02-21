@@ -1,5 +1,8 @@
 #include <iostream>
 #include <fstream>
+#include <string>
+#include <cctype> //to use tolower functionality
+
 
 using namespace std;
 
@@ -34,14 +37,26 @@ int main(){
       cout << "" << endl;
     }
 
+
     string line;
+    int charCount = 0;
 
-    while(!inFile.eof())
-   {
+    //Testing that I can read in the correct file and print line by line
+    while(!inFile.eof()){
      getline(inFile,line);
-     cout << line << endl;
-   }
 
+
+
+     for (string::size_type i = 0; i < line.length(); i++){
+       line[i] = tolower (line[i]);
+     }
+
+     charCount = charCount + line.size();
+
+
+    }
+
+  cout << "There are a total of " << charCount << " characters in this file." << endl;
 
 
 }
