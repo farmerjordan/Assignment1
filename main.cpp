@@ -50,7 +50,7 @@ int main(){
      for (string::size_type i = 0; i < line.length(); i++){
        line[i] = tolower (line[i]);
      }
-
+     line.erase(line.find_last_not_of(" \t\n\r\f\v") + 1); //Removes trailing whitespace to get corret character count
      charCount = charCount + line.size();
 
 
