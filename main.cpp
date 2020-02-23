@@ -53,6 +53,8 @@ int main(){
      //Making all characters lowercase
      for (string::size_type i = 0; i < line.length(); i++){
        line[i] = tolower (line[i]);
+
+
      }
 
      //Removes trailing whitespace to get correct character count
@@ -91,14 +93,18 @@ int main(){
     variance = (float)varianceNumerator / (float)lineCount;
     stdev = sqrt(variance);
 
+  ofstream outFile;
+
+  outFile.open("jordanfarmer.out", ios::out | ios::app);
 
 
-  //All of this will later be outputted to the output file
-  cout << "Total number of characters in the file: " << charCount << endl;
-  cout << "Total number of DNA strings in the file: " << lineCount << endl;
-  cout << "The mean length of the DNA strings is: " << mean << endl;
-  cout << "The variance of the length of the DNA strings is: " << variance << endl;
-  cout << "The standard deviation of the length of the DNA strings is: " << stdev << endl;
+
+  //All of this will be outputted to the output file
+  outFile << "Total number of characters in the file: " << charCount << endl;
+  outFile << "Total number of DNA strings in the file: " << lineCount << endl;
+  outFile << "The mean length of the DNA strings is: " << mean << endl;
+  outFile << "The variance of the length of the DNA strings is: " << variance << endl;
+  outFile << "The standard deviation of the length of the DNA strings is: " << stdev << endl;
 
 
 }
