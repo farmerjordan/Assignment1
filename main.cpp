@@ -49,6 +49,25 @@ int main(){
     int countG = 0;
     int countT = 0;
 
+    int countAA = 0;
+    int countAC = 0;
+    int countAG = 0;
+    int countAT = 0;
+    int countCA = 0;
+    int countCC = 0;
+    int countCG = 0;
+    int countCT = 0;
+    int countGA = 0;
+    int countGC = 0;
+    int countGG = 0;
+    int countGT = 0;
+    int countTA = 0;
+    int countTC = 0;
+    int countTG = 0;
+    int countTT = 0;
+    int bigramCount = 0;
+
+
     //Testing that I can read in the correct file and print line by line
     while(!inFile.eof()){
      getline(inFile,line);
@@ -59,17 +78,68 @@ int main(){
      //Making all characters lowercase
      for (string::size_type i = 0; i < line.length(); i++){
 
-
        line[i] = tolower (line[i]);
 
        if(line[i] == 'a'){
          countA += 1;
+         if(line[i + 1] == 'a' || line[i + 1] == 'A'){
+           countAA += 1;
+           bigramCount += 1;
+         }else if(line[i + 1] == 'c' || line[i + 1] == 'C'){
+           countAC += 1;
+           bigramCount += 1;
+         }else if(line[i + 1] == 'g' || line[i + 1] == 'G'){
+           countAG += 1;
+           bigramCount += 1;
+         }else{
+           countAT += 1;
+           bigramCount += 1;
+         }
        }else if(line[i] == 'c'){
          countC += 1;
+         if(line[i + 1] == 'a' || line[i + 1] == 'A'){
+           countCA += 1;
+           bigramCount += 1;
+         }else if(line[i + 1] == 'c' || line[i + 1] == 'C'){
+           countCC += 1;
+           bigramCount += 1;
+         }else if(line[i + 1] == 'g' || line[i + 1] == 'G'){
+           countCG += 1;
+           bigramCount += 1;
+         }else{
+           countCT += 1;
+           bigramCount += 1;
+         }
        }else if(line[i] == 'g'){
          countG += 1;
+         if(line[i + 1] == 'a' || line[i + 1] == 'A'){
+           countGA += 1;
+           bigramCount += 1;
+         }else if(line[i + 1] == 'c' || line[i + 1] == 'C'){
+           countGC += 1;
+           bigramCount += 1;
+         }else if(line[i + 1] == 'g' || line[i + 1] == 'G'){
+           countGG += 1;
+           bigramCount += 1;
+         }else{
+           countGT += 1;
+           bigramCount += 1;
+         }
        }else{
          countT += 1;
+         if(line[i + 1] == 'a' || line[i + 1] == 'A'){
+           countTA += 1;
+           bigramCount += 1;
+         }else if(line[i + 1] == 'c' || line[i + 1] == 'C'){
+           countTC += 1;
+           bigramCount += 1;
+         }else if(line[i + 1] == 'g' || line[i + 1] == 'G'){
+           countTG += 1;
+           bigramCount += 1;
+         }else{
+           countTT += 1;
+           bigramCount += 1;
+         }
        }
 
 
@@ -122,10 +192,43 @@ int main(){
   probG = (float)countG / (float)charCount;
   probT = (float)countT / (float)charCount;
 
+  float probAA = 0;
+  float probAC = 0;
+  float probAG = 0;
+  float probAT = 0;
+  float probCA = 0;
+  float probCC = 0;
+  float probCG = 0;
+  float probCT = 0;
+  float probGA = 0;
+  float probGC = 0;
+  float probGG = 0;
+  float probGT = 0;
+  float probTA = 0;
+  float probTC = 0;
+  float probTG = 0;
+  float probTT = 0;
+
+  probAA = (float)countAA / (float)bigramCount;
+  probAC = (float)countAC / (float)bigramCount;
+  probAG = (float)countAG / (float)bigramCount;
+  probAT = (float)countAT / (float)bigramCount;
+  probCA = (float)countCA / (float)bigramCount;
+  probCC = (float)countCC / (float)bigramCount;
+  probCG = (float)countCG / (float)bigramCount;
+  probCT = (float)countCT / (float)bigramCount;
+  probGA = (float)countGA / (float)bigramCount;
+  probGC = (float)countGC / (float)bigramCount;
+  probGG = (float)countGG / (float)bigramCount;
+  probGT = (float)countGT / (float)bigramCount;
+  probTA = (float)countTA / (float)bigramCount;
+  probTC = (float)countTC / (float)bigramCount;
+  probTG = (float)countTG / (float)bigramCount;
+  probTT = (float)countTT / (float)bigramCount;
+
   ofstream outFile;
 
   outFile.open("jordanfarmer.out", ios::out | ios::app);
-
 
 
   //All of this will be outputted to the output file
@@ -134,7 +237,7 @@ int main(){
   outFile << "Student ID: 2289033" << endl;
   outFile << "Chapman Email: farmer@chapman.edu" << endl;
   outFile << "Course Number and Section: 350-02" << endl;
-  outFile << "Assignment: Assignment #1" << endl;  
+  outFile << "Assignment: Assignment #1" << endl;
   outFile << "Total number of characters in the file: " << charCount << endl;
   outFile << "Total number of DNA strings in the file: " << lineCount << endl;
   outFile << " " << endl;
@@ -146,8 +249,22 @@ int main(){
   outFile << "The relative probability of the C nucleotide is:  " << probC << endl;
   outFile << "The relative probability of the G nucleotide is:  " << probG << endl;
   outFile << "The relative probability of the T nucleotide is:  " << probT << endl;
-
-
-
+  outFile << " " << endl;
+  outFile << "The relative probability of the bigram AA is: " << probAA << endl;
+  outFile << "The relative probability of the bigram AC is: " << probAC << endl;
+  outFile << "The relative probability of the bigram AG is: " << probAG << endl;
+  outFile << "The relative probability of the bigram AT is: " << probAT << endl;
+  outFile << "The relative probability of the bigram CA is: " << probCA << endl;
+  outFile << "The relative probability of the bigram CC is: " << probCC << endl;
+  outFile << "The relative probability of the bigram CG is: " << probCG << endl;
+  outFile << "The relative probability of the bigram CT is: " << probCT << endl;
+  outFile << "The relative probability of the bigram GA is: " << probGA << endl;
+  outFile << "The relative probability of the bigram GC is: " << probGC << endl;
+  outFile << "The relative probability of the bigram GG is: " << probGG << endl;
+  outFile << "The relative probability of the bigram GT is: " << probGT << endl;
+  outFile << "The relative probability of the bigram TA is: " << probTA << endl;
+  outFile << "The relative probability of the bigram TC is: " << probTC << endl;
+  outFile << "The relative probability of the bigram TG is: " << probTG << endl;
+  outFile << "The relative probability of the bigram TT is: " << probTT << endl;
 
 }
