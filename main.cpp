@@ -3,6 +3,9 @@
 #include <string>
 #include <cctype> //to use tolower functionality
 #include <cmath> //to calculate standard deviation
+#include <cstdlib> //for gaussian distrbution
+#include <math.h> //for gaussian distribution to provide value of pi
+#include <time.h> //for gaussian distribution to initialize a random seed each time rand() is called
 
 
 using namespace std;
@@ -225,6 +228,23 @@ int main(){
   probTC = (float)countTC / (float)bigramCount;
   probTG = (float)countTG / (float)bigramCount;
   probTT = (float)countTT / (float)bigramCount;
+
+  //Gaussian Distribution
+
+  float a = 0;
+  float b = 0;
+  float c = 0;
+  float d = 0;
+
+  srand (time(NULL)); //Ensures values for a and b are different each time program is run
+  a = (float)rand()/((float)RAND_MAX + 1);
+  b = (float)rand()/((float)RAND_MAX + 1);
+
+  c = sqrt(-2 * log(a)) * cos(2 * M_PI * b);
+  d = ((float)stdev * c) + (float)mean;
+  cout << d << endl;
+
+
 
   ofstream outFile;
 
