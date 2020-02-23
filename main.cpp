@@ -44,21 +44,37 @@ int main(){
     int lineCount = 0;
     float mean = 0;
 
+    int countA = 0;
+    int countC = 0;
+    int countG = 0;
+    int countT = 0;
 
     //Testing that I can read in the correct file and print line by line
     while(!inFile.eof()){
      getline(inFile,line);
 
+     //Removes trailing whitespace to get correct character count
+     line.erase(line.find_last_not_of(" \t\n\r\f\v") + 1);
 
      //Making all characters lowercase
      for (string::size_type i = 0; i < line.length(); i++){
+
+
        line[i] = tolower (line[i]);
+
+       if(line[i] == 'a'){
+         countA += 1;
+       }else if(line[i] == 'c'){
+         countC += 1;
+       }else if(line[i] == 'g'){
+         countG += 1;
+       }else{
+         countT += 1;
+       }
 
 
      }
 
-     //Removes trailing whitespace to get correct character count
-     line.erase(line.find_last_not_of(" \t\n\r\f\v") + 1);
 
      charCount = charCount + line.size();
      lineCount += 1;
@@ -76,8 +92,10 @@ int main(){
     float variance = 0;
     float stdev = 0;
 
+    //Returning to top of file to perform variance calculations
     inFile.clear();
     inFile.seekg(0, ios::beg);
+
     //Calculating variance doing it after previous while loop so that the mean was available
     while(!inFile.eof()){
       getline(inFile,line);
@@ -93,6 +111,17 @@ int main(){
     variance = (float)varianceNumerator / (float)lineCount;
     stdev = sqrt(variance);
 
+
+  float probA = 0;
+  float probC = 0;
+  float probG = 0;
+  float probT = 0;
+
+  probA = (float)countA / (float)charCount;
+  probC = (float)countC / (float)charCount;
+  probG = (float)countG / (float)charCount;
+  probT = (float)countT / (float)charCount;
+
   ofstream outFile;
 
   outFile.open("jordanfarmer.out", ios::out | ios::app);
@@ -100,11 +129,25 @@ int main(){
 
 
   //All of this will be outputted to the output file
+
+  outFile << "Full Name: Jordan Farmer" << endl;
+  outFile << "Student ID: 2289033" << endl;
+  outFile << "Chapman Email: farmer@chapman.edu" << endl;
+  outFile << "Course Number and Section: 350-02" << endl;
+  outFile << "Assignment: Assignment #1" << endl;  
   outFile << "Total number of characters in the file: " << charCount << endl;
   outFile << "Total number of DNA strings in the file: " << lineCount << endl;
+  outFile << " " << endl;
   outFile << "The mean length of the DNA strings is: " << mean << endl;
   outFile << "The variance of the length of the DNA strings is: " << variance << endl;
   outFile << "The standard deviation of the length of the DNA strings is: " << stdev << endl;
+  outFile << " " << endl;
+  outFile << "The relative probability of the A nucleotide is:  " << probA << endl;
+  outFile << "The relative probability of the C nucleotide is:  " << probC << endl;
+  outFile << "The relative probability of the G nucleotide is:  " << probG << endl;
+  outFile << "The relative probability of the T nucleotide is:  " << probT << endl;
+
+
 
 
 }

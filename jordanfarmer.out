@@ -1,0 +1,10 @@
+Total number of characters in the file: 32
+Total number of DNA strings in the file: 5
+The mean length of the DNA strings is: 6.4
+The variance of the length of the DNA strings is: 0.64
+The standard deviation of the length of the DNA strings is: 0.8
+ 
+The relative probability of the A nucleotide is:  0.25
+The relative probability of the C nucleotide is:  0.25
+The relative probability of the G nucleotide is:  0.25
+The relative probability of the T nucleotide is:  0.25
