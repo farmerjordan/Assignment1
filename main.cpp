@@ -235,6 +235,7 @@ int main(){
   float b = 0;
   float c = 0;
   float d = 0;
+  int dRounded = 0;
 
   srand (time(NULL)); //Ensures values for a and b are different each time program is run
   a = (float)rand()/((float)RAND_MAX + 1);
@@ -242,8 +243,8 @@ int main(){
 
   c = sqrt(-2 * log(a)) * cos(2 * M_PI * b);
   d = ((float)stdev * c) + (float)mean;
-  cout << d << endl;
 
+  dRounded = round(d);
 
 
   ofstream outFile;
@@ -286,5 +287,35 @@ int main(){
   outFile << "The relative probability of the bigram TC is: " << probTC << endl;
   outFile << "The relative probability of the bigram TG is: " << probTG << endl;
   outFile << "The relative probability of the bigram TT is: " << probTT << endl;
+  outFile << "Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: " << endl;
+  outFile << " " << endl;
+
+  int randNuc;
+  string currentStrand;
+
+  //Generating 1000 random nucleotides based on the Gaussian Distribution
+  for (string::size_type i = 0; i < 1000; i++){
+    currentStrand = "";
+    for (string::size_type i = 0; i < dRounded; i++){
+
+      randNuc = (rand() % 4) + 1;
+
+      if(randNuc == 1){
+        currentStrand += 'A';
+      }else if(randNuc == 2){
+        currentStrand += 'C';
+      }else if(randNuc == 3){
+        currentStrand += 'G';
+      }else{
+        currentStrand += 'T';
+      }
+
+    }
+
+    outFile << currentStrand << endl;
+  }
+
+
+
 
 }
