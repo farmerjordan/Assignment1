@@ -3,6 +3,8 @@ Student ID: 2289033
 Chapman Email: farmer@chapman.edu
 Course Number and Section: 350-02
 Assignment: Assignment #1
+ 
+The file being analyzed is:  sampleInput.txt
 Total number of characters in the file: 32
 Total number of DNA strings in the file: 5
  
@@ -15,2371 +17,1025 @@ The relative probability of the C nucleotide is:  0.25
 The relative probability of the G nucleotide is:  0.25
 The relative probability of the T nucleotide is:  0.25
  
-The relative probability of the bigram AA is: 0.03125
-The relative probability of the bigram AC is: 0.09375
-The relative probability of the bigram AG is: 0.0625
-The relative probability of the bigram AT is: 0.0625
-The relative probability of the bigram CA is: 0.0625
-The relative probability of the bigram CC is: 0.03125
-The relative probability of the bigram CG is: 0.0625
-The relative probability of the bigram CT is: 0.09375
-The relative probability of the bigram GA is: 0.03125
-The relative probability of the bigram GC is: 0.03125
-The relative probability of the bigram GG is: 0.03125
-The relative probability of the bigram GT is: 0.15625
-The relative probability of the bigram TA is: 0.0625
-The relative probability of the bigram TC is: 0.0625
-The relative probability of the bigram TG is: 0.0625
-The relative probability of the bigram TT is: 0.0625
+The relative probability of the bigram AA is: 0.037037
+The relative probability of the bigram AC is: 0.111111
+The relative probability of the bigram AG is: 0.0740741
+The relative probability of the bigram AT is: 0.0740741
+The relative probability of the bigram CA is: 0.0740741
+The relative probability of the bigram CC is: 0.037037
+The relative probability of the bigram CG is: 0.0740741
+The relative probability of the bigram CT is: 0.111111
+The relative probability of the bigram GA is: 0.037037
+The relative probability of the bigram GC is: 0.037037
+The relative probability of the bigram GG is: 0.037037
+The relative probability of the bigram GT is: 0.037037
+The relative probability of the bigram TA is: 0.0740741
+The relative probability of the bigram TC is: 0.0740741
+The relative probability of the bigram TG is: 0.0740741
+The relative probability of the bigram TT is: 0.037037
 Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: 
  
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-Full Name: Jordan Farmer
-Student ID: 2289033
-Chapman Email: farmer@chapman.edu
-Course Number and Section: 350-02
-Assignment: Assignment #1
-Total number of characters in the file: 32
-Total number of DNA strings in the file: 5
- 
-The mean length of the DNA strings is: 6.4
-The variance of the length of the DNA strings is: 0.64
-The standard deviation of the length of the DNA strings is: 0.8
- 
-The relative probability of the A nucleotide is:  0.25
-The relative probability of the C nucleotide is:  0.25
-The relative probability of the G nucleotide is:  0.25
-The relative probability of the T nucleotide is:  0.25
- 
-The relative probability of the bigram AA is: 0.03125
-The relative probability of the bigram AC is: 0.09375
-The relative probability of the bigram AG is: 0.0625
-The relative probability of the bigram AT is: 0.0625
-The relative probability of the bigram CA is: 0.0625
-The relative probability of the bigram CC is: 0.03125
-The relative probability of the bigram CG is: 0.0625
-The relative probability of the bigram CT is: 0.09375
-The relative probability of the bigram GA is: 0.03125
-The relative probability of the bigram GC is: 0.03125
-The relative probability of the bigram GG is: 0.03125
-The relative probability of the bigram GT is: 0.15625
-The relative probability of the bigram TA is: 0.0625
-The relative probability of the bigram TC is: 0.0625
-The relative probability of the bigram TG is: 0.0625
-The relative probability of the bigram TT is: 0.0625
-Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: 
- 
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-AAAAAA
-Full Name: Jordan Farmer
-Student ID: 2289033
-Chapman Email: farmer@chapman.edu
-Course Number and Section: 350-02
-Assignment: Assignment #1
-Total number of characters in the file: 32
-Total number of DNA strings in the file: 5
- 
-The mean length of the DNA strings is: 6.4
-The variance of the length of the DNA strings is: 0.64
-The standard deviation of the length of the DNA strings is: 0.8
- 
-The relative probability of the A nucleotide is:  0.25
-The relative probability of the C nucleotide is:  0.25
-The relative probability of the G nucleotide is:  0.25
-The relative probability of the T nucleotide is:  0.25
- 
-The relative probability of the bigram AA is: 0.03125
-The relative probability of the bigram AC is: 0.09375
-The relative probability of the bigram AG is: 0.0625
-The relative probability of the bigram AT is: 0.0625
-The relative probability of the bigram CA is: 0.0625
-The relative probability of the bigram CC is: 0.03125
-The relative probability of the bigram CG is: 0.0625
-The relative probability of the bigram CT is: 0.09375
-The relative probability of the bigram GA is: 0.03125
-The relative probability of the bigram GC is: 0.03125
-The relative probability of the bigram GG is: 0.03125
-The relative probability of the bigram GT is: 0.15625
-The relative probability of the bigram TA is: 0.0625
-The relative probability of the bigram TC is: 0.0625
-The relative probability of the bigram TG is: 0.0625
-The relative probability of the bigram TT is: 0.0625
-Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: 
- 
-Full Name: Jordan Farmer
-Student ID: 2289033
-Chapman Email: farmer@chapman.edu
-Course Number and Section: 350-02
-Assignment: Assignment #1
-Total number of characters in the file: 32
-Total number of DNA strings in the file: 5
- 
-The mean length of the DNA strings is: 6.4
-The variance of the length of the DNA strings is: 0.64
-The standard deviation of the length of the DNA strings is: 0.8
- 
-The relative probability of the A nucleotide is:  0.25
-The relative probability of the C nucleotide is:  0.25
-The relative probability of the G nucleotide is:  0.25
-The relative probability of the T nucleotide is:  0.25
- 
-The relative probability of the bigram AA is: 0.03125
-The relative probability of the bigram AC is: 0.09375
-The relative probability of the bigram AG is: 0.0625
-The relative probability of the bigram AT is: 0.0625
-The relative probability of the bigram CA is: 0.0625
-The relative probability of the bigram CC is: 0.03125
-The relative probability of the bigram CG is: 0.0625
-The relative probability of the bigram CT is: 0.09375
-The relative probability of the bigram GA is: 0.03125
-The relative probability of the bigram GC is: 0.03125
-The relative probability of the bigram GG is: 0.03125
-The relative probability of the bigram GT is: 0.15625
-The relative probability of the bigram TA is: 0.0625
-The relative probability of the bigram TC is: 0.0625
-The relative probability of the bigram TG is: 0.0625
-The relative probability of the bigram TT is: 0.0625
-Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: 
- 
-Full Name: Jordan Farmer
-Student ID: 2289033
-Chapman Email: farmer@chapman.edu
-Course Number and Section: 350-02
-Assignment: Assignment #1
-Total number of characters in the file: 32
-Total number of DNA strings in the file: 5
- 
-The mean length of the DNA strings is: 6.4
-The variance of the length of the DNA strings is: 0.64
-The standard deviation of the length of the DNA strings is: 0.8
- 
-The relative probability of the A nucleotide is:  0.25
-The relative probability of the C nucleotide is:  0.25
-The relative probability of the G nucleotide is:  0.25
-The relative probability of the T nucleotide is:  0.25
- 
-The relative probability of the bigram AA is: 0.03125
-The relative probability of the bigram AC is: 0.09375
-The relative probability of the bigram AG is: 0.0625
-The relative probability of the bigram AT is: 0.0625
-The relative probability of the bigram CA is: 0.0625
-The relative probability of the bigram CC is: 0.03125
-The relative probability of the bigram CG is: 0.0625
-The relative probability of the bigram CT is: 0.09375
-The relative probability of the bigram GA is: 0.03125
-The relative probability of the bigram GC is: 0.03125
-The relative probability of the bigram GG is: 0.03125
-The relative probability of the bigram GT is: 0.15625
-The relative probability of the bigram TA is: 0.0625
-The relative probability of the bigram TC is: 0.0625
-The relative probability of the bigram TG is: 0.0625
-The relative probability of the bigram TT is: 0.0625
-Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: 
- 
-Full Name: Jordan Farmer
-Student ID: 2289033
-Chapman Email: farmer@chapman.edu
-Course Number and Section: 350-02
-Assignment: Assignment #1
-Total number of characters in the file: 32
-Total number of DNA strings in the file: 5
- 
-The mean length of the DNA strings is: 6.4
-The variance of the length of the DNA strings is: 0.64
-The standard deviation of the length of the DNA strings is: 0.8
- 
-The relative probability of the A nucleotide is:  0.25
-The relative probability of the C nucleotide is:  0.25
-The relative probability of the G nucleotide is:  0.25
-The relative probability of the T nucleotide is:  0.25
- 
-The relative probability of the bigram AA is: 0.03125
-The relative probability of the bigram AC is: 0.09375
-The relative probability of the bigram AG is: 0.0625
-The relative probability of the bigram AT is: 0.0625
-The relative probability of the bigram CA is: 0.0625
-The relative probability of the bigram CC is: 0.03125
-The relative probability of the bigram CG is: 0.0625
-The relative probability of the bigram CT is: 0.09375
-The relative probability of the bigram GA is: 0.03125
-The relative probability of the bigram GC is: 0.03125
-The relative probability of the bigram GG is: 0.03125
-The relative probability of the bigram GT is: 0.15625
-The relative probability of the bigram TA is: 0.0625
-The relative probability of the bigram TC is: 0.0625
-The relative probability of the bigram TG is: 0.0625
-The relative probability of the bigram TT is: 0.0625
-Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: 
- 
-Full Name: Jordan Farmer
-Student ID: 2289033
-Chapman Email: farmer@chapman.edu
-Course Number and Section: 350-02
-Assignment: Assignment #1
-Total number of characters in the file: 32
-Total number of DNA strings in the file: 5
- 
-The mean length of the DNA strings is: 6.4
-The variance of the length of the DNA strings is: 0.64
-The standard deviation of the length of the DNA strings is: 0.8
- 
-The relative probability of the A nucleotide is:  0.25
-The relative probability of the C nucleotide is:  0.25
-The relative probability of the G nucleotide is:  0.25
-The relative probability of the T nucleotide is:  0.25
- 
-The relative probability of the bigram AA is: 0.03125
-The relative probability of the bigram AC is: 0.09375
-The relative probability of the bigram AG is: 0.0625
-The relative probability of the bigram AT is: 0.0625
-The relative probability of the bigram CA is: 0.0625
-The relative probability of the bigram CC is: 0.03125
-The relative probability of the bigram CG is: 0.0625
-The relative probability of the bigram CT is: 0.09375
-The relative probability of the bigram GA is: 0.03125
-The relative probability of the bigram GC is: 0.03125
-The relative probability of the bigram GG is: 0.03125
-The relative probability of the bigram GT is: 0.15625
-The relative probability of the bigram TA is: 0.0625
-The relative probability of the bigram TC is: 0.0625
-The relative probability of the bigram TG is: 0.0625
-The relative probability of the bigram TT is: 0.0625
-Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: 
- 
-Full Name: Jordan Farmer
-Student ID: 2289033
-Chapman Email: farmer@chapman.edu
-Course Number and Section: 350-02
-Assignment: Assignment #1
-Total number of characters in the file: 32
-Total number of DNA strings in the file: 5
- 
-The mean length of the DNA strings is: 6.4
-The variance of the length of the DNA strings is: 0.64
-The standard deviation of the length of the DNA strings is: 0.8
- 
-The relative probability of the A nucleotide is:  0.25
-The relative probability of the C nucleotide is:  0.25
-The relative probability of the G nucleotide is:  0.25
-The relative probability of the T nucleotide is:  0.25
- 
-The relative probability of the bigram AA is: 0.03125
-The relative probability of the bigram AC is: 0.09375
-The relative probability of the bigram AG is: 0.0625
-The relative probability of the bigram AT is: 0.0625
-The relative probability of the bigram CA is: 0.0625
-The relative probability of the bigram CC is: 0.03125
-The relative probability of the bigram CG is: 0.0625
-The relative probability of the bigram CT is: 0.09375
-The relative probability of the bigram GA is: 0.03125
-The relative probability of the bigram GC is: 0.03125
-The relative probability of the bigram GG is: 0.03125
-The relative probability of the bigram GT is: 0.15625
-The relative probability of the bigram TA is: 0.0625
-The relative probability of the bigram TC is: 0.0625
-The relative probability of the bigram TG is: 0.0625
-The relative probability of the bigram TT is: 0.0625
-Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: 
- 
-Full Name: Jordan Farmer
-Student ID: 2289033
-Chapman Email: farmer@chapman.edu
-Course Number and Section: 350-02
-Assignment: Assignment #1
-Total number of characters in the file: 32
-Total number of DNA strings in the file: 5
- 
-The mean length of the DNA strings is: 6.4
-The variance of the length of the DNA strings is: 0.64
-The standard deviation of the length of the DNA strings is: 0.8
- 
-The relative probability of the A nucleotide is:  0.25
-The relative probability of the C nucleotide is:  0.25
-The relative probability of the G nucleotide is:  0.25
-The relative probability of the T nucleotide is:  0.25
- 
-The relative probability of the bigram AA is: 0.03125
-The relative probability of the bigram AC is: 0.09375
-The relative probability of the bigram AG is: 0.0625
-The relative probability of the bigram AT is: 0.0625
-The relative probability of the bigram CA is: 0.0625
-The relative probability of the bigram CC is: 0.03125
-The relative probability of the bigram CG is: 0.0625
-The relative probability of the bigram CT is: 0.09375
-The relative probability of the bigram GA is: 0.03125
-The relative probability of the bigram GC is: 0.03125
-The relative probability of the bigram GG is: 0.03125
-The relative probability of the bigram GT is: 0.15625
-The relative probability of the bigram TA is: 0.0625
-The relative probability of the bigram TC is: 0.0625
-The relative probability of the bigram TG is: 0.0625
-The relative probability of the bigram TT is: 0.0625
-Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: 
- 
-Full Name: Jordan Farmer
-Student ID: 2289033
-Chapman Email: farmer@chapman.edu
-Course Number and Section: 350-02
-Assignment: Assignment #1
-Total number of characters in the file: 32
-Total number of DNA strings in the file: 5
- 
-The mean length of the DNA strings is: 6.4
-The variance of the length of the DNA strings is: 0.64
-The standard deviation of the length of the DNA strings is: 0.8
- 
-The relative probability of the A nucleotide is:  0.25
-The relative probability of the C nucleotide is:  0.25
-The relative probability of the G nucleotide is:  0.25
-The relative probability of the T nucleotide is:  0.25
- 
-The relative probability of the bigram AA is: 0.03125
-The relative probability of the bigram AC is: 0.09375
-The relative probability of the bigram AG is: 0.0625
-The relative probability of the bigram AT is: 0.0625
-The relative probability of the bigram CA is: 0.0625
-The relative probability of the bigram CC is: 0.03125
-The relative probability of the bigram CG is: 0.0625
-The relative probability of the bigram CT is: 0.09375
-The relative probability of the bigram GA is: 0.03125
-The relative probability of the bigram GC is: 0.03125
-The relative probability of the bigram GG is: 0.03125
-The relative probability of the bigram GT is: 0.15625
-The relative probability of the bigram TA is: 0.0625
-The relative probability of the bigram TC is: 0.0625
-The relative probability of the bigram TG is: 0.0625
-The relative probability of the bigram TT is: 0.0625
-Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: 
- 
-Full Name: Jordan Farmer
-Student ID: 2289033
-Chapman Email: farmer@chapman.edu
-Course Number and Section: 350-02
-Assignment: Assignment #1
-Total number of characters in the file: 32
-Total number of DNA strings in the file: 5
- 
-The mean length of the DNA strings is: 6.4
-The variance of the length of the DNA strings is: 0.64
-The standard deviation of the length of the DNA strings is: 0.8
- 
-The relative probability of the A nucleotide is:  0.25
-The relative probability of the C nucleotide is:  0.25
-The relative probability of the G nucleotide is:  0.25
-The relative probability of the T nucleotide is:  0.25
- 
-The relative probability of the bigram AA is: 0.03125
-The relative probability of the bigram AC is: 0.09375
-The relative probability of the bigram AG is: 0.0625
-The relative probability of the bigram AT is: 0.0625
-The relative probability of the bigram CA is: 0.0625
-The relative probability of the bigram CC is: 0.03125
-The relative probability of the bigram CG is: 0.0625
-The relative probability of the bigram CT is: 0.09375
-The relative probability of the bigram GA is: 0.03125
-The relative probability of the bigram GC is: 0.03125
-The relative probability of the bigram GG is: 0.03125
-The relative probability of the bigram GT is: 0.15625
-The relative probability of the bigram TA is: 0.0625
-The relative probability of the bigram TC is: 0.0625
-The relative probability of the bigram TG is: 0.0625
-The relative probability of the bigram TT is: 0.0625
-Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: 
- 
+CACGGA
+CATGTG
+CCCCTT
+ATGTTC
+AACTAT
+GCAATG
+AATAGG
+GATTCG
+TCGCCC
+GCCACC
+TTGTTC
+GAGCAA
+TGATCC
+CATTCA
+AACGAG
+TTGGTC
+TCCCGC
+GCTGAC
+AGCTCT
+TGTAAT
+TTGCCC
+GCGAGA
+CAGCTG
+GTATGG
+GCACCA
+AATTCC
+AAGTAA
+TCCCGA
+AATAAC
+GGGGAT
+GAAGTC
+TACCTC
+CGTGAC
+GAGCAG
+GTAACA
+AACAGA
+CCATGT
+ATGTGG
+CAGTGG
+CACCCT
+GCTTCC
+TGGACA
+TGTCCC
+TGGCCA
+AGACAC
+AGGTCT
+AAGGAT
+GACGCT
+TCCCGT
+CGCGAC
+TATGAA
+CACTTC
+TCCATT
+TTACAG
+AGCCAC
+TTCGCC
+TTGAGC
+CCGTGG
+GCCGGC
+AGTCAT
+GTTACA
+CATTAG
+AGTTCC
+CTTGCC
+TCATTA
+GCTCCA
+GTCCGC
+TTTTGA
+ATTTCA
+CAGCTC
+CGGATA
+ACTCTC
+TGAGCG
+TGCGCG
+TGTCTG
+GAAAAA
+ACCTGA
+CCTCAA
+ATGCCA
+AAGTCG
+CTGGAT
+GAATAG
+ACATGA
+TGTGAA
+GACATG
+GAGCGG
+AAGAAG
+GATGTG
+GGACAA
+GGATTT
+CCATGG
+CGTAGT
+GCTGTG
+AGAATC
+CCTCAG
+CGACCG
+TTCGTT
+CCAATA
+GTGTAC
+ACTTGT
+GTCGAT
+AAGCGC
+CAGCAG
+CTCTGC
+CGGACC
+TTACCC
+AGCGTT
+TATCGA
+TTTCTC
+GATCAA
+GTAGAC
+TATAGT
+ACTTTC
+TGCGTA
+TGAGTA
+TCTTTA
+ATAATT
+TTAGTT
+AGGCCC
+CATCTG
+CGTACT
+ACGCCC
+AACATA
+ATGGAT
+TCATGT
+CTCCTG
+AATGCC
+TCCACA
+ACTTTT
+GTAGGG
+CTCGAC
+AACAGG
+CGTGGA
+TTGGGC
+GAAGTG
+CAGGTG
+TTTATC
+GATCTG
+GGCAAT
+CGTGCG
+AGTGAG
+CACAAC
+CTCCAA
+TGGAGT
+TACGGG
+CGAACC
+GGCTGC
+ATAGAC
+GTTCTG
+AGGCCA
+AGGAGT
+CACGTT
+AATAGT
+CATCCG
+TCCCTG
+CTATTG
+TCGATC
+ATCTAT
+GCACGC
+ACTCGG
+TTCTTA
+CGCTGC
+AGAGCA
+CAGCCA
+TCGGGA
+ACACAT
+CCCTAT
+ACGATT
+CATTGC
+TCGCTC
+GTGGAT
+CCAGAC
+CAGTCC
+TGCGCT
+TAAGGT
+TAGCGG
+ATACCA
+GGCAGG
+CCAGTC
+GTCGCT
+GATACC
+TGATTC
+TCAACG
+GGTGAG
+TGCCCG
+ATGATA
+CGGGCC
+TCGTCT
+CACAGC
+TGAATC
+TTACTT
+CCGTTT
+AGAGGG
+CTGGAA
+ATGATC
+CGCCAA
+ACCGCA
+GCTGAC
+ACAGAA
+TATCAT
+TCCAGC
+AGTGCA
+GTCCCC
+GGTTAT
+TTTTCT
+GAATAG
+CAAAGC
+ACACGG
+TCAGAA
+CTAAGC
+TACTAC
+CCCCCA
+TCCTGT
+CCACTA
+GAAGAG
+TTTAGT
+CTAGCC
+GAGTTA
+TCGTGC
+AAGAGG
+GCGCCA
+AGAACC
+CTCTTA
+AGCGCA
+TCACCT
+AAAGCG
+GGAGGC
+TACATA
+CTGGCT
+GCCTGG
+GGGGAA
+ATGCCA
+GCATCA
+TGTCCC
+CTGGGA
+AATTTT
+TTGCAA
+CTCGGG
+GGCCTG
+GACAGA
+CTAAGT
+TCTGGT
+GTGTCC
+CTTGCG
+ATTGAC
+GCAGCG
+GATCGC
+AACTTG
+ACGTTT
+CAGAGG
+GATGGA
+CACACT
+GGATCT
+CCATAA
+GCACGG
+TAGTGA
+TTCAAG
+AGAACC
+TGGAGG
+AAAACG
+GCGAAA
+ATACAA
+AAGAAT
+GTCATT
+TTATTC
+CCGTCG
+TGGTTG
+TTGCAG
+AGCGGC
+CCACAA
+TCCCAT
+AACGTA
+ATAGAA
+ACGCTA
+GAGTGG
+TCAAGA
+TGAAAA
+CATCGT
+CGATAT
+TGACCG
+AATACC
+AAACCA
+CGCATT
+TAGATG
+TGATAG
+CAGAAT
+GAAGCC
+GGTTGG
+TGGCGC
+TCTTCT
+CGTATT
+TCATTC
+ACATCG
+CAATCG
+AAAATC
+TCTTCG
+GATGAG
+AAAAAC
+GCCTCG
+CCGCCC
+GCGGAT
+AGAACA
+GCAGCA
+TTGAGT
+GAAACG
+GATAGT
+AGCAGG
+ACTATA
+CTATTG
+GGGGGA
+AAATCG
+GCAACT
+GCAGCT
+GGGGCG
+CTATGG
+TGTTGA
+CACGAG
+CTTCCA
+ATTTGA
+CTACGG
+TGAGCG
+GTTTCT
+CGGATT
+CTTAGC
+ATAAAG
+GAATGG
+CCCAAG
+AGAGGT
+GTGCTC
+GAAGAC
+ATCCGT
+TTAAAC
+GATGGC
+CACTCA
+ATACCC
+GGATTG
+GGCTGC
+AACTGA
+ATACGG
+GTCGAT
+TGCTCA
+CTGTGA
+AGAGCG
+GGCGTT
+ACGGAG
+CTAGTC
+GACATT
+AAGAGT
+GACTGC
+GTGCCG
+TGGAAC
+CGCGGC
+GGCAGT
+TATCTC
+GCAAGC
+TGTCGT
+GTCTGT
+AACCAT
+ATTTAG
+CGACTG
+TGAGTG
+GCGTAA
+TCAAGA
+ATTTGA
+GTGGCC
+AATCGG
+TATCAA
+CTCCTT
+CTGCTC
+CCATTC
+CTCAAA
+TAAGCA
+GTTTAT
+TGGCTC
+GAGTTC
+AACGCC
+GACGGT
+TCGGAG
+CTAACT
+CTTAGT
+CTTGCA
+ATACCT
+AAAGTA
+CAACAC
+CGAAGT
+TTGTGT
+TGGATT
+TAATGT
+TTTTCA
+AGGCGA
+AGTGCC
+CATTAT
+GTTGGC
+CGCCCG
+CGATTG
+TTAGCC
+AGGTCG
+GTGCGA
+TTGAAA
+GCGGAC
+ATACGC
+GGTACA
+TATCCC
+CACAAC
+AGTGAT
+TCTTGC
+AATTCA
+TAAGCG
+AGGCGT
+GGCCAG
+CTTAGC
+CGCACG
+AAGCTT
+TTGCAA
+AGTGAT
+ACTTCC
+AGACGC
+AGGGTC
+GGAAAA
+AAGTGG
+TGTGCA
+TCGTTA
+CTTTCG
+ATCATC
+AACGTA
+CGGAAA
+CACTTA
+AATTTC
+CTAGTA
+TTACGT
+CTGTTG
+TAGCAG
+CAGCTG
+GACGTC
+GGAGTG
+GACAAC
+GTCCAC
+TGCCTA
+TCCCTA
+GGGGAG
+CGGGGG
+TCGCGG
+GCAAGT
+AGACTA
+CCGATG
+GACATT
+TGACTG
+TGTAGG
+TGAAAT
+ACAGCT
+ATACAT
+CTCCAC
+ATTTTC
+CTTCTT
+ATCACG
+ACGATG
+TACACC
+CCAACA
+CGTCAG
+AACCCG
+ACTGCG
+AAGCAA
+GGCGGG
+GACCCC
+TCCATG
+GTTGCA
+ACATGC
+TATAGC
+TCCAGG
+CGAGGT
+CCGATT
+CTACGG
+GCGCGA
+TCCACA
+TGGTAA
+GCCAGA
+TTATAG
+CTATAG
+TTTCAA
+CTGTGG
+TAACAG
+CTCCGC
+ATAAGC
+GCACGA
+CTTTGC
+CGCCTC
+TAAAGG
+GGCGGT
+TACACT
+AGTACC
+CGTTAG
+ATTCAC
+TGTCAC
+AACCAG
+CAAAAC
+CGTCCT
+TCTGGT
+TGCGTC
+TTCACC
+GGGGGG
+TTATAC
+GATCGC
+AGTCAG
+TAGAAT
+GTCACT
+GCGTAT
+AGTTAC
+CATAGA
+TCACCA
+ATTCTC
+AGGGCG
+CCAACA
+GGCCGT
+CCACGC
+GGCCTA
+GTGAGT
+GTCTAG
+TGAATG
+TCATGG
+CACGGA
+GAACCG
+ATCCGC
+TGTTGT
+GGAGCG
+AGTCAC
+GTCGAG
+AAGCGA
+TCGGCC
+CTTCCA
+ACTTTT
+ACGCTG
+ATTGAC
+GTGCGT
+GTGCCT
+CCCAAA
+AACGCA
+CCTATT
+CGTTTC
+TCACGC
+CTGGAG
+GAGTGA
+TTCGTC
+CATAAG
+CTTGAC
+TCAGTA
+ACATAT
+TTGACG
+CTGATG
+GCCCTG
+GGTTAT
+TCAAAC
+TTACTG
+TCCGCA
+AACGCA
+AATTTT
+GGATGA
+ACTATT
+GGATAC
+ACCCTT
+GTTCGG
+ACACAT
+CAACAT
+ATGAGG
+CGTTAG
+GGCCTA
+TTCTAC
+GGCTTC
+GTAATT
+TACGTC
+CCTGGG
+GCGTCG
+ATACGT
+TCGTCC
+GAGATC
+CATCGC
+TCTCAA
+ACTAGG
+ACTGCA
+ATCGTA
+TCAGGG
+ACTTTA
+TTCGTT
+ATCTGG
+AGCCAC
+CTGCGA
+TGCTCA
+TATAGT
+TTGAGA
+GGGATG
+CAGTCA
+TCGAAT
+CTTATC
+TGAGTT
+GCCCCC
+TGCCCT
+CAATCA
+GGTCGG
+TGATAT
+GGCATG
+CTCGAG
+CGTCCA
+CAGACA
+GAGTAG
+GGCTGA
+GTTTGA
+CTGACT
+AGTGTC
+TCCCAC
+ATACGG
+CAGCTA
+CCTTCA
+GGTGAG
+TTTACA
+GCTGGC
+ATGGAC
+GCGGAA
+GTGCCG
+TAGTAT
+TGAGAG
+TCCCTG
+TGTCAA
+CGTTAA
+GTAAGA
+TCTTTT
+CTAGAA
+ATGACG
+AGATGA
+TAATAG
+TTAGGT
+GTGGCT
+GGGAGT
+GGGTCA
+TAATTA
+GGTGCC
+CTAACC
+TATCAC
+CTTTGA
+TCATCT
+TTGGCT
+TGGTGT
+ACTATA
+CATCTC
+CGGGCT
+CAGTGT
+GCGAAA
+AAGTAC
+TGCGTA
+TAGGGT
+CATATC
+TGGCGG
+GGGAGT
+CCCGAA
+GTAACT
+TTTGTG
+TGACAT
+TGCCGT
+ATCCCC
+CTAGTG
+CGCAAA
+GTGTAG
+GTATAG
+TCCAGG
+CACCGA
+TTGATG
+ACCTAC
+CGAGGC
+ACGGCA
+AGAGTG
+GTCCTA
+TAGCTG
+GACTGT
+ATAGCC
+GCTTTG
+CGCTTC
+TGCCTA
+AGACCT
+ACGATT
+CCAAAA
+GGGACC
+CATGGT
+GGCGTG
+CTTTTG
+GATTAA
+TGGCGT
+GTTCCC
+ATTCGG
+TTCGTA
+ACAAAA
+ATTGAC
+CGCAAG
+GAGCGA
+ACTCAG
+GAAGAA
+TAAGGA
+TTTAAT
+TGTCTC
+CTTACT
+TTTTCA
+TAATGT
+AGGTGG
+GCACGA
+TTTGAA
+CTTAGC
+ACCCCA
+ACGGAA
+CGGCTA
+CGACAA
+CCTCGC
+GGGTTT
+TTACGA
+GTGAAG
+AGAATC
+AAGTCA
+ATTTTG
+GGGTAA
+TGTGGT
+AGCATA
+CTCATG
+ATGTGC
+GCTAAT
+ATCTCT
+GCGAGC
+ATACTT
+AATGTC
+TCGGCG
+GCGTAT
+TTCCTT
+GTGGCG
+GCGCTC
+GGTCAA
+TGGCGG
+CCCGGA
+CAATGC
+CAGTCC
+CATACT
+AAGGGA
+CTCGCT
+TGTTCC
+ATGGGT
+TTTGTA
+CACTGT
+TTGAGT
+TCCGAG
+AACGGA
+CCTCTT
+CATGAC
+CTCTAT
+GTATGA
+GGATAG
+TCTTGG
+GAGCGG
+GAGTTG
+GGCGCT
+GTCGTC
+AGTTCC
+CTCAAA
+GTAAGT
+GCCATT
+TGGCAC
+GCACAC
+TGCAGC
+AAAACT
+ATACTT
+ATCTAG
+AGTAAT
+GTCTTT
+AAACAC
+AAAAGA
+TGTCCT
+TGCGGC
+CAATTA
+GAAGCA
+TCCACT
+AACTCT
+GACTGT
+CAACTT
+CCTCAA
+GTCTTG
+GTTTGA
+GACTAT
+TCTTGG
+GAAGCA
+GTTAGT
+GAGCAC
+GGCTGC
+GCGGAC
+AGCAAG
+ATGATA
+TCCCTC
+GCTAAC
+CGGAAG
+CCCGCC
+AGAGGT
+TCCAGA
+CCCACC
+GGTAGA
+TTCACG
+CGAGAG
+CTTGTG
+GATTCA
+ATGATC
+AGACGG
+TAAAGA
+GTAGGT
+AAATAC
+TAACAT
+GAGTCA
+CCACCG
+CTGCCA
+CCACAA
+GTCGCC
+CTGTGT
+ATAAAC
+TGCCTG
+CAACCA
+GTATCC
+ATAGGT
+GGGGTT
+AGCCTA
+TACTCG
+ATGAGT
+CTGCCC
+ATTTGG
+GGATTT
+TGTAGC
+TGACGT
+ATGTAT
+ACTTAC
+GGTGCG
+GAACCG
+GAATCG
+GCCAAG
+TATGAT
+TGCGAG
+AGGCAT
+TGTACA
+GTGATG
+GTTCCT
+ACCCTC
+TAACCA
+CAGAAA
+CTTTTT
+CCGAGT
+TGAATA
+GGAGTC
+GACACG
+AGCACA
+TGCCTT
+AGCCTA
+CCGCTC
+GCGTCT
+CGCGGG
+GCATGT
+GGGTTC
+TAGCCC
+TTGCTT
+AACCTT
+TCATCG
+TTCCTA
+GGCAAG
+CTGTAC
+GACACA
+TAGATT
+GGGTTC
+ACACCA
+TGTCCT
+GATAAA
+ATAGTT
+CGGACC
+CCTCGA
+CGTATA
+TGAGGA
+GGAGCT
+GGCAGT
+CAAACT
+CTCATA
+ATGCCA
+CATCGA
+CAGGAC
+CGCGGG
+CTCGTC
+GAACCC
+CGCAAA
+ACATTC
+ACTCTC
+TACCGA
+GAAGCC
+TTACTA
+CACCTA
+GTCCAA
+TTAAAG
+AGTCAA
+GATGCT
+GGTTTG
+AGCCTC
+GGAGGC
+CTTAAA
+AGAACC
+TTTGTG
+ATACAA
+GGGGCC
+TGATGA
+TGGTGT
+ACTTTG
+CTCGAC
+GGAACC
+CATCTC
+CGTACG
+TCTGAT
+AGGCAT
+TGCTGG
+AATTCG
+ATCTTG
+CGACCA
+ACGGTG
+CGATCT
+CCTAAA
+TATATG
+GCCGGG
+TGTCAG
+AGAACC
+TGGGTG
+TGGGGG
+CATGTC
+AGTTTT
+GTCGAG
+ATCGGA
+CCGTTA
+CAAAGT
+CGCAGC
+AAACGA
+AGACCG
+CGTTCG
+TTTTTC
+TCAACG
+CCGGTA
+GTTGAA
+ACGTAT
+GTGCGG
+GCTGGA
+ATGGCC
+TAAGGA
+GTCAGC
+TAAGCG
+AAATGG
+TTCCCT
+GATGGC
+GAATAT
+AATAGC
+TGCTCT
+CAGGGA
+CAAATT
+GCTGCA
+CCACGG
+GCATAC
+GCCCTT
+CCACCT
+ATAAGC
+ATTAAC
+GGGGCG
+TATACG
+AGTATC
+TAATAG
+CAGAAG
+CGCTAG
+CTGATT
+GTCGTC
+TGCTGC
+GTCATC
+GATTTT
+GAGAAC
+AGCCAA
+GTTTTC
+ACACCT
+GTTCTG
+ACGGCG
+ACACTC
+CCAACT
+CCACTC
+ACCTTA
+CTCTGG
+CGAGTT
+TAATCC
+TGTTAG
+CATGAG
+GCGTCA
+CGGCAC
+ATCCTG
+GGCCCC
+TGCTAC
+CGTTCA
+TTGCAT
+GCGAGC
+GATTGC
+ACTGAA
+TGGGCA
+GCTCGT
+ACAGCG
+ATTTTC
+ATGACT
+The relative probability of the A nucleotide in the generated strings is:  0.247333
+The relative probability of the C nucleotide in the generated strings is:  0.248167
+The relative probability of the G nucleotide in the generated strings is:  0.254833
+The relative probability of the T nucleotide in the generated strings is:  0.249667
