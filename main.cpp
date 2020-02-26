@@ -12,38 +12,43 @@ using namespace std;
 
 int main(){
 
+  //Checking for when user is prompted if they would like to test another file
   bool doAgain = true;
 
   while(doAgain == true){
 
     string input_file;
     string verify;
+
+    //Obtaining user input for file to test
     cout << "Please enter the name of the text file containing DNA strings." << endl;
     cin >> input_file;
     cout << "You entered: " << input_file << endl;
     cout << "Is this correct? Y or N " << endl;
     cin >> verify;
 
+    //Ensuring user provided the correct file
     while(verify == "N" || verify == "n"){
       cout << "Please enter the name of the text file containing DNA strings." << endl;
       cin >> input_file;
       cout << "You entered: " << input_file << endl;
       cout << "Is this correct? Y or N " << endl;
       cin >> verify;
-      }
+    }
 
-      ifstream inFile;
+    ifstream inFile;
+    inFile.open(input_file);
 
-      inFile.open(input_file);
-
-      if(!inFile){
-        cout << "Unable to open file: " << input_file << endl;
-        cout << "File not found." << endl;
-        exit(1);
-      }else{
-        cout << "File found. " << endl;
-        cout << "" << endl;
-      }
+    //If the file cannot be found, it cannot be opened and user is prompted
+    //Otherwise the user is told that their file was found and the testing will begin
+    if(!inFile){
+      cout << "Unable to open file: " << input_file << endl;
+      cout << "File not found." << endl;
+      exit(1);
+    }else{
+      cout << "File found. " << endl;
+      cout << "" << endl;
+    }
 
       //Initializing variables for use in the while loop that iterates through the input file
       string line;
@@ -82,6 +87,7 @@ int main(){
        //Removes trailing whitespace to get correct character count
        line.erase(line.find_last_not_of(" \t\n\r\f\v") + 1);
 
+       //Iterating through each character in the line
        for (string::size_type i = 0; i < line.length(); i++){
 
          //Converting current char to lowercase
@@ -194,17 +200,19 @@ int main(){
       variance = (float)varianceNumerator / (float)lineCount;
       stdev = sqrt(variance);
 
-
+    //Initializing variables for probability calculations
     float probA = 0;
     float probC = 0;
     float probG = 0;
     float probT = 0;
 
+    //Calculating nucleotide probabilities
     probA = (float)countA / (float)charCount;
     probC = (float)countC / (float)charCount;
     probG = (float)countG / (float)charCount;
     probT = (float)countT / (float)charCount;
 
+    //Initializing variables for bigram probability calculations
     float probAA = 0;
     float probAC = 0;
     float probAG = 0;
@@ -222,6 +230,7 @@ int main(){
     float probTG = 0;
     float probTT = 0;
 
+    //Calculating bigram probabilities
     probAA = (float)countAA / (float)bigramCount;
     probAC = (float)countAC / (float)bigramCount;
     probAG = (float)countAG / (float)bigramCount;
@@ -239,31 +248,27 @@ int main(){
     probTG = (float)countTG / (float)bigramCount;
     probTT = (float)countTT / (float)bigramCount;
 
-    //Gaussian Distribution
-
+    //Gaussian Distribution variable initialization
     float a = 0;
     float b = 0;
     float c = 0;
     float d = 0;
     int dRounded = 0;
 
+    //Calculating variables for Guassian Distribution
     srand (time(NULL)); //Ensures values for a and b are different each time program is run
     a = (float)rand()/((float)RAND_MAX + 1);
     b = (float)rand()/((float)RAND_MAX + 1);
-
     c = sqrt(-2 * log(a)) * cos(2 * M_PI * b);
     d = ((float)stdev * c) + (float)mean;
 
     dRounded = round(d);
 
-
+    //Initalizing output file
     ofstream outFile;
-
     outFile.open("jordanfarmer.out", ios::out | ios::app);
 
-
     //All of this will be outputted to the output file
-
     outFile << "Full Name: Jordan Farmer" << endl;
     outFile << "Student ID: 2289033" << endl;
     outFile << "Chapman Email: farmer@chapman.edu" << endl;
@@ -302,6 +307,7 @@ int main(){
     outFile << "Below are 1000 randomly generated DNA strings with length following a Guassian Distribution: " << endl;
     outFile << " " << endl;
 
+    //Initializing variables for statistics for randomly generated DNA strings
     int randNuc;
     string currentStrand;
     int newCountA = 0;
@@ -317,6 +323,7 @@ int main(){
 
         randNuc = (rand() % 4) + 1;
 
+        //The 4 nucleotides are each assigned to a number between 1 and 4 for random assignment
         if(randNuc == 1){
           currentStrand += 'A';
           newCountA += 1;
@@ -330,26 +337,27 @@ int main(){
           currentStrand += 'T';
           newCountT += 1;
         }
-
-
       }
 
+      //Outputting new strands to output file
       newTotalNuc += currentStrand.size();
       outFile << currentStrand << endl;
 
     }
 
+    //Initializing variables for statistics for new DNA strings
     float newProbA = 0;
     float newProbC = 0;
     float newProbG = 0;
     float newProbT = 0;
 
+    //Calculating probability for statistcs for new DNA strings
     newProbA = (float)newCountA / (float)newTotalNuc;
     newProbC = (float)newCountC / (float)newTotalNuc;
     newProbG = (float)newCountG / (float)newTotalNuc;
     newProbT = (float)newCountT / (float)newTotalNuc;
 
-
+    //Outputting probability of new DNA strings to file
     outFile << "The relative probability of the A nucleotide in the generated strings is:  " << newProbA << endl;
     outFile << "The relative probability of the C nucleotide in the generated strings is:  " << newProbC << endl;
     outFile << "The relative probability of the G nucleotide in the generated strings is:  " << newProbG << endl;
@@ -357,6 +365,7 @@ int main(){
 
     string repeat;
 
+    //Checking if user would like to check another file
     cout << "Would you like to compute with another file? Y or N " << endl;
     cin >> repeat;
     if(repeat == "N" || repeat == "n"){
